@@ -1,2 +1,2 @@
 # HTML-CSS-e-Bootstrap
-Atividade Prática Para Projeto Descomplica e Instituto NU
+Atividade Prática para Projeto Descomplica e Instituto NU
