@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+        <title>NewYou</title>
+    </head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">NewYou</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  About Us
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="quemsomos.html">Quem Somos</a></li>
+                  <li><a class="dropdown-item" href="nossotime.html">Nosso Time</a></li>
+                  <li><a class="dropdown-item" href="nossosprodutos.html">Nossos Produtos</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <div class="card mb-3" style="max-width: 1800px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <br>
+                <img class="rounded-circle img-fluid" style="padding-left: 60px;" ="avatar2" src="data:image/png;base64,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" />
+            <br>
+            <br>
+            </div>
+          <div class="col-md-8">
+            <div class="card-body" style="text-align: center; padding-top: 60px;">
+              <h5 class="card-title">NewYou, prazer!</h5>
+              <br>
+              <p class="card-text">Somos uma loja moderna em todos os sentidos. Vestimos todos os estilos e corpos. Prezamos por contemplar todo indivíduo.</p>
+              <p>Nossos produtos são de altíssima qualidade e podem chegar a você com rapidez, seja onde você estiver.</p>
+              <p>Venha conhecer uma nova pessoa: <b>Você</b>.</p>
+            
+            </div>
+          </div>
+        </div>
+      </div>
+</body>
+</html>
+
